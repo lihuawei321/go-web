@@ -1,0 +1,51 @@
+{"level":"INFO","time":"2023-02-12T00:32:16.349+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-20T22:57:18.831+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-20T22:59:18.113+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-20T22:59:45.532+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-20T23:00:57.569+0800","caller":"logger/logger.go:77","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000414173}
+{"level":"INFO","time":"2023-02-20T23:01:47.065+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-20T23:01:59.397+0800","caller":"logger/logger.go:77","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.00071569}
+{"level":"INFO","time":"2023-02-20T23:14:08.459+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2023-02-20T23:14:16.180+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2023-02-20T23:14:16.180+0800","caller":"logger/logger.go:77","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.002273445}
+{"level":"INFO","time":"2023-02-20T23:14:45.359+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2023-02-20T23:14:49.577+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-02-20T23:14:49.577+0800","caller":"logger/logger.go:77","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000311515}
+{"level":"INFO","time":"2023-02-20T23:23:45.475+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2023-02-20T23:23:51.021+0800","caller":"controller/user.go:19","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-02-20T23:23:51.025+0800","caller":"logger/logger.go:77","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.005012778}
+{"level":"INFO","time":"2023-02-20T23:25:36.956+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-20T23:26:58.731+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"ERROR","time":"2023-02-20T23:27:00.659+0800","caller":"controller/user.go:19","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-02-20T23:27:00.661+0800","caller":"logger/logger.go:77","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.002334924}
+{"level":"INFO","time":"2023-02-20T23:51:05.848+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-20T23:51:17.940+0800","caller":"logger/logger.go:77","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.069388356}
+{"level":"INFO","time":"2023-02-21T00:15:11.335+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-21T00:15:38.160+0800","caller":"logger/logger.go:77","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.02079943}
+{"level":"ERROR","time":"2023-02-21T00:15:44.018+0800","caller":"controller/user.go:75","msg":"logic.Login failed","error":"密码错误"}
+{"level":"INFO","time":"2023-02-21T00:15:44.018+0800","caller":"logger/logger.go:77","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001714938}
+{"level":"INFO","time":"2023-02-25T19:34:43.907+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-25T19:35:49.004+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-25T19:35:55.644+0800","caller":"logger/logger.go:77","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.004852932}
+{"level":"INFO","time":"2023-02-26T16:40:21.193+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T16:40:49.481+0800","caller":"logger/logger.go:77","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.14129095}
+{"level":"INFO","time":"2023-02-26T16:42:46.108+0800","caller":"logger/logger.go:77","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000132327}
+{"level":"INFO","time":"2023-02-26T16:43:27.907+0800","caller":"logger/logger.go:77","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000058183}
+{"level":"INFO","time":"2023-02-26T16:55:20.673+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T17:33:15.022+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T18:04:51.073+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T18:05:06.717+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:06:22.373+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:09:19.328+0800","caller":"logger/logger.go:77","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000149135}
+{"level":"INFO","time":"2023-02-26T19:09:48.286+0800","caller":"logger/logger.go:77","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.00007294}
+{"level":"INFO","time":"2023-02-26T19:11:07.617+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:13:14.569+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:13:31.153+0800","caller":"logger/logger.go:77","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.033775584}
+{"level":"INFO","time":"2023-02-26T19:13:58.654+0800","caller":"logger/logger.go:77","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.038988094}
+{"level":"INFO","time":"2023-02-26T19:15:13.566+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:27:01.433+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:27:23.153+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:27:34.692+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-26T19:28:07.267+0800","caller":"logger/logger.go:77","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.01097269}
+{"level":"INFO","time":"2023-02-26T19:28:16.652+0800","caller":"logger/logger.go:77","msg":"/api/v1/community/1","status":200,"method":"GET","path":"/api/v1/community/1","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.006115188}
+{"level":"INFO","time":"2023-02-26T19:53:07.999+0800","caller":"logger/logger.go:44","msg":"init logger success"}
