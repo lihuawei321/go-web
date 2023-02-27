@@ -7,10 +7,10 @@ import (
 )
 
 type Post struct {
-	ID          int64     `json:"id" db:"id"`
+	ID          int64     `json:"post_id" db:"post_id"`
 	Title       string    `json:"title" db:"title" binding:"required"`
 	Content     string    `json:"content" db:"content" binding:"required"`
-	AuthorId    uint64    `json:"author_id" db:"author_id" binding:"required"`
+	AuthorId    int64     `json:"author_id" db:"author_id"`
 	CommunityID int64     `json:"community_id" db:"community_id" binding:"required"`
 	Status      int32     `json:"status" db:"status"`
 	CreateTime  time.Time `json:"create_time" db:"create_time"`
@@ -34,13 +34,14 @@ func (p *Post) UnmarshalJSON(data []byte) (err error) {
 	} else {
 		p.Title = required.Title
 		p.Content = required.Content
-		p.CommunityID = required.CommunityID
+		//p.CommunityID = required.CommunityID
 	}
 	return
 }
 
+// ApiPostDetail 帖子详情接口的结构体
 type ApiPostDetail struct {
-	*Post
-	AuthorName    string `json:"author_name"`
-	CommunityName string `json:"community_name"`
+	AuthorName       string                    `json:"author_name"`
+	*Post                                      //嵌入帖子结构体
+	*CommunityDetail `json:"community_detail"` //嵌入社区结构体
 }
