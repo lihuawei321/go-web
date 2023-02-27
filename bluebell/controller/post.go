@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 )
 
-// PostHandler 创建帖子
+// PostHandler 创建帖子功能
 func CreatePostHandler(c *gin.Context) {
 	// 1. 获取参数及参数校验
 
