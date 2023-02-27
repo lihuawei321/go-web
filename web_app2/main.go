@@ -3,12 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/spf13/viper"
-	"go-web/web_app/dao/mysql"
-	"go-web/web_app/dao/redis"
-	"go-web/web_app/logger"
-	"go-web/web_app/routes"
-	"go-web/web_app/settings"
+	"go-web/web_app2/dao/mysql"
+	"go-web/web_app2/dao/redis"
+	"go-web/web_app2/logger"
+	"go-web/web_app2/routes"
+	"go-web/web_app2/settings"
 	"go.uber.org/zap"
 	"log"
 	"net/http"
@@ -21,35 +20,43 @@ import (
 // Go Web开发较通用的脚手架模版
 
 func main() {
+	if len(os.Args) < 2 {
+		fmt.Println("need config file.eg: web_app2 config.yaml")
+		return
+	}
+
 	//1. 加载配置
-	if err := settings.Init(); err != nil {
+	if err := settings.Init(os.Args[1]); err != nil {
 		fmt.Printf("init settings failed: %v\n", err)
 		return
 	}
+	fmt.Println(settings.Conf)
+	fmt.Println(settings.Conf.LogConfig == nil)
 	//2. 初始化日志
-	if err := logger.Init(); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig); err != nil {
 		fmt.Printf("init logger failed: %v\n", err)
 		return
 	}
 	defer zap.L().Sync()
 	zap.L().Debug("logger init success...")
 	//3. 初始化MySQL链接
-	if err := mysql.Init(); err != nil {
+	if err := mysql.Init(settings.Conf.MySQLConfig); err != nil {
 		fmt.Printf("init mysql failed: %v\n", err)
 		return
 	}
 	defer mysql.Close()
 	//4. 初始化Redis链接
-	if err := redis.Init(); err != nil {
+	if err := redis.Init(settings.Conf.RedisConfig); err != nil {
 		fmt.Printf("init redis failed: %v\n", err)
 		return
 	}
 	defer redis.Close()
 	//5. 注册路由
-	r := routes.Setup()
+	r := routes.Setup(settings.Conf.Mode)
 	//6. 启动服务（优雅关机）
+	fmt.Println(settings.Conf.Port)
 	srv := &http.Server{
-		Addr:    fmt.Sprintf(":%d", viper.GetInt("app.port")),
+		Addr:    fmt.Sprintf(":%d", settings.Conf.Port),
 		Handler: r,
 	}
 

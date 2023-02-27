@@ -1,8 +1,9 @@
 package logger
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/spf13/viper"
+	"go-web/web_app2/settings"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
@@ -16,14 +17,17 @@ import (
 )
 
 // Init 初始化Logger
-func Init() (err error) {
-	writeSyncer := getLogWriter(viper.GetString("log.filename"),
-		viper.GetInt("log.max_size"),
-		viper.GetInt("log.max_backups"),
-		viper.GetInt("log.max_age"))
+func Init(cfg *settings.LogConfig) (err error) {
+	fmt.Println("loggconnfig", cfg)
+	writeSyncer := getLogWriter(
+		cfg.Filename,
+		cfg.MaxSize,
+		cfg.MaxBackups,
+		cfg.MaxAge,
+	)
 	encoder := getEncoder()
 	var l = new(zapcore.Level)
-	err = l.UnmarshalText([]byte(viper.GetString("log.level")))
+	err = l.UnmarshalText([]byte(cfg.Level))
 	if err != nil {
 		return
 	}

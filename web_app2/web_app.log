@@ -1,1 +1,31 @@
 {"level":"DEBUG","time":"2023-02-11T15:48:53.482+0800","caller":"web_app/main.go:35","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-02-11T18:49:49.297+0800","caller":"web_app2/main.go:37","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-11T18:49:49.299+0800","caller":"mysql/mysql.go:23","msg":"connect DB failed","error":"dial tcp 127.0.0.1:13306: connect: connection refused"}
+{"level":"DEBUG","time":"2023-02-11T18:50:10.074+0800","caller":"web_app2/main.go:37","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-11T18:50:10.162+0800","caller":"mysql/mysql.go:23","msg":"connect DB failed","error":"Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2023-02-11T18:50:34.766+0800","caller":"web_app2/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T18:50:37.849+0800","caller":"web_app2/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T18:50:37.849+0800","caller":"web_app2/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-11T18:52:42.481+0800","caller":"web_app2/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T18:53:20.920+0800","caller":"web_app2/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T18:53:20.921+0800","caller":"web_app2/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-11T18:53:24.044+0800","caller":"web_app2/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T18:54:09.800+0800","caller":"web_app2/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T18:54:09.801+0800","caller":"web_app2/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-11T18:54:13.654+0800","caller":"web_app2/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T18:58:38.634+0800","caller":"web_app2/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T18:58:38.636+0800","caller":"web_app2/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-11T18:58:43.361+0800","caller":"web_app2/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T19:00:16.528+0800","caller":"web_app2/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T19:00:16.529+0800","caller":"web_app2/main.go:83","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-11T19:00:46.113+0800","caller":"web_app2/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T19:00:49.778+0800","caller":"logger/logger.go:70","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","errors":"","cost":0.000044205}
+{"level":"INFO","time":"2023-02-11T19:00:50.848+0800","caller":"logger/logger.go:70","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","errors":"","cost":0.000000794}
+{"level":"INFO","time":"2023-02-11T19:55:25.585+0800","caller":"web_app2/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T19:55:25.590+0800","caller":"web_app2/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-11T20:14:58.097+0800","caller":"web_app2/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T20:14:59.447+0800","caller":"web_app2/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T20:14:59.447+0800","caller":"web_app2/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-11T20:18:09.065+0800","caller":"web_app2/main.go:41","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-11T20:18:10.325+0800","caller":"web_app2/main.go:78","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-11T20:18:10.326+0800","caller":"web_app2/main.go:87","msg":"Server exiting"}
