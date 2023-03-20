@@ -70,3 +70,143 @@
 {"level":"INFO","time":"2023-02-27T19:18:33.354+0800","caller":"logger/logger.go:77","msg":"/api/v1/post/352027500043309056","status":200,"method":"GET","path":"/api/v1/post/352027500043309056","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.022329487}
 {"level":"INFO","time":"2023-02-27T19:18:48.823+0800","caller":"logger/logger.go:44","msg":"init logger success"}
 {"level":"INFO","time":"2023-02-27T19:18:53.029+0800","caller":"logger/logger.go:77","msg":"/api/v1/post/352027500043309056","status":200,"method":"GET","path":"/api/v1/post/352027500043309056","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.045924213}
+{"level":"INFO","time":"2023-02-27T22:29:45.158+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-02-27T22:31:10.492+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:31:10.493+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:31:10.493+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.002402461}
+{"level":"DEBUG","time":"2023-02-27T22:32:45.034+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:32:45.036+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:32:45.036+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001959054}
+{"level":"DEBUG","time":"2023-02-27T22:33:45.640+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:33:45.641+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:33:45.641+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001326838}
+{"level":"INFO","time":"2023-02-27T22:34:43.559+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-02-27T22:34:55.589+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:34:55.589+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:34:55.589+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000733541}
+{"level":"INFO","time":"2023-02-27T22:35:25.776+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:39:18.492+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:39:24.189+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.137320874}
+{"level":"INFO","time":"2023-02-27T22:41:15.198+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-02-27T22:41:18.168+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:41:18.168+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:41:18.168+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000746147}
+{"level":"DEBUG","time":"2023-02-27T22:45:35.865+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:45:35.866+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:45:35.866+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001329888}
+{"level":"DEBUG","time":"2023-02-27T22:45:57.003+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:45:57.003+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:45:57.004+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001091998}
+{"level":"DEBUG","time":"2023-02-27T22:46:02.690+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:46:02.690+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:46:02.691+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.00062468}
+{"level":"INFO","time":"2023-02-27T22:46:34.818+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:47:54.694+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-02-27T22:48:17.525+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:48:17.525+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:48:17.525+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000686785}
+{"level":"INFO","time":"2023-02-27T22:49:08.536+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:49:25.496+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-02-27T22:49:29.913+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:49:29.913+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:49:29.914+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001340749}
+{"level":"DEBUG","time":"2023-02-27T22:49:59.629+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"invalid character '}' looking for beginning of object key string"}
+{"level":"ERROR","time":"2023-02-27T22:49:59.629+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:49:59.629+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000401603}
+{"level":"DEBUG","time":"2023-02-27T22:50:03.925+0800","caller":"controller/post.go:18","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-02-27T22:50:03.926+0800","caller":"controller/post.go:19","msg":"create post handler err"}
+{"level":"INFO","time":"2023-02-27T22:50:03.926+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000925123}
+{"level":"INFO","time":"2023-02-27T22:50:31.273+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:50:33.370+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.043179993}
+{"level":"INFO","time":"2023-02-27T22:51:50.014+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:52:00.631+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:52:17.250+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.043355456}
+{"level":"INFO","time":"2023-02-27T22:59:19.348+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T22:59:33.558+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.014904422}
+{"level":"INFO","time":"2023-02-27T22:59:45.797+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.003445536}
+{"level":"INFO","time":"2023-02-27T23:00:46.919+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T23:00:50.413+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.029255947}
+{"level":"INFO","time":"2023-02-27T23:01:16.554+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.005639114}
+{"level":"INFO","time":"2023-02-27T23:01:32.947+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/size=1&page=1","status":200,"method":"GET","path":"/api/v1/posts/size=1&page=1","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000053326}
+{"level":"INFO","time":"2023-02-27T23:01:46.178+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"size=1&page=1","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001803648}
+{"level":"INFO","time":"2023-02-27T23:01:52.913+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"size=1&page=3","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001318159}
+{"level":"INFO","time":"2023-02-27T23:05:27.034+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-02-27T23:05:30.043+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"size=1&page=3","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.039535894}
+{"level":"INFO","time":"2023-03-02T23:54:45.158+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-02T23:56:07.995+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000118527}
+{"level":"INFO","time":"2023-03-02T23:56:48.450+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000512436}
+{"level":"INFO","time":"2023-03-02T23:58:38.729+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-02T23:58:43.083+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.00086634}
+{"level":"INFO","time":"2023-03-03T00:36:52.589+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-03T00:38:29.353+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.050761458}
+{"level":"INFO","time":"2023-03-03T00:38:39.583+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.120464594}
+{"level":"DEBUG","time":"2023-03-03T00:39:13.217+0800","caller":"logic/vote.go:33","msg":"VoteForPost","userID":349581304511074304,"postID":"353217058932002816","direction":1}
+{"level":"ERROR","time":"2023-03-03T00:39:13.235+0800","caller":"controller/vote.go:31","msg":"logic.VoteForPost() failed","error":"投票时间已过"}
+{"level":"INFO","time":"2023-03-03T00:39:13.235+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.018349869}
+{"level":"INFO","time":"2023-03-03T00:42:23.173+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-03T00:44:42.186+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-03T00:44:57.681+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.021558409}
+{"level":"INFO","time":"2023-03-03T00:45:01.163+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.034063129}
+{"level":"INFO","time":"2023-03-03T00:45:01.878+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.005798368}
+{"level":"DEBUG","time":"2023-03-03T00:45:19.730+0800","caller":"logic/vote.go:33","msg":"VoteForPost","userID":349581304511074304,"postID":"353218687810932736","direction":1}
+{"level":"INFO","time":"2023-03-03T00:45:19.739+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.009655852}
+{"level":"INFO","time":"2023-03-03T00:51:12.854+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-03T00:51:59.228+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-03-03T00:52:04.988+0800","caller":"logic/vote.go:33","msg":"VoteForPost","userID":349581304511074304,"postID":"353218687810932736","direction":0}
+{"level":"INFO","time":"2023-03-03T00:52:04.996+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.008643069}
+{"level":"DEBUG","time":"2023-03-03T00:52:37.672+0800","caller":"logic/vote.go:33","msg":"VoteForPost","userID":349581304511074304,"postID":"353218687810932736","direction":1}
+{"level":"INFO","time":"2023-03-03T00:52:37.678+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.005827596}
+{"level":"DEBUG","time":"2023-03-03T00:53:00.844+0800","caller":"logic/vote.go:33","msg":"VoteForPost","userID":349581304511074304,"postID":"353218687810932736","direction":1}
+{"level":"INFO","time":"2023-03-03T00:53:00.855+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.011478283}
+{"level":"DEBUG","time":"2023-03-03T00:53:25.303+0800","caller":"logic/vote.go:33","msg":"VoteForPost","userID":349581304511074304,"postID":"353218687810932736","direction":-1}
+{"level":"INFO","time":"2023-03-03T00:53:25.314+0800","caller":"logger/logger.go:77","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.011675503}
+{"level":"INFO","time":"2023-03-13T22:19:37.476+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-13T22:20:18.919+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-18T21:37:56.305+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-18T21:39:29.978+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-18T21:40:49.076+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"size=1&page=1&order=time","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.054071927}
+{"level":"INFO","time":"2023-03-18T21:42:15.655+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-03-18T21:42:18.422+0800","caller":"logic/post.go:96","msg":"GetPostList2","ids":["353218687810932736"]}
+{"level":"INFO","time":"2023-03-18T21:42:18.423+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"size=1&page=1&order=time","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.003654009}
+{"level":"INFO","time":"2023-03-18T21:43:33.513+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-03-18T21:43:36.637+0800","caller":"logic/post.go:96","msg":"GetPostList2","ids":["353218687810932736"]}
+{"level":"INFO","time":"2023-03-18T21:43:36.676+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"size=1&page=1&order=time","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.049483536}
+{"level":"DEBUG","time":"2023-03-18T21:43:42.562+0800","caller":"logic/post.go:96","msg":"GetPostList2","ids":["353218687810932736"]}
+{"level":"INFO","time":"2023-03-18T21:43:42.563+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"size=1&page=1&order=score","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.003192396}
+{"level":"INFO","time":"2023-03-18T22:03:23.358+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"DEBUG","time":"2023-03-18T22:03:26.295+0800","caller":"logic/post.go:96","msg":"GetPostList2","ids":["353218687810932736"]}
+{"level":"DEBUG","time":"2023-03-18T22:03:26.298+0800","caller":"logic/post.go:103","msg":"GetPostList2","posts":[{"post_id":"353218687810932736","author_id":349581304511074304,"community_id":2,"title":"投票功能真好玩2","content":"12345","status":0,"create_time":"2023-03-03T00:44:57+08:00"}]}
+{"level":"INFO","time":"2023-03-18T22:03:26.304+0800","caller":"logger/logger.go:77","msg":"/api/v1/posts2","status":200,"method":"GET","path":"/api/v1/posts2","query":"size=1&page=1&order=score","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.010896015}
+{"level":"INFO","time":"2023-03-18T22:06:15.848+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-18T23:59:02.915+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T00:18:53.151+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T00:58:14.975+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:23:51.272+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:26:26.614+0800","caller":"logger/logger.go:77","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.044830661}
+{"level":"INFO","time":"2023-03-19T01:32:11.900+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:32.790+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:32.790+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:35.062+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:35.062+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:37.525+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:37.526+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:39.726+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:39.726+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:42.358+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:42.359+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:44.578+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:44.578+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:46.916+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:46.917+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:49.247+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:49.247+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:51.653+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:51.654+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:58.783+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:32:58.784+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:33:01.180+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:33:01.180+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:33:03.540+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:33:03.540+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:33:08.483+0800","caller":"logger/logger.go:44","msg":"init logger success"}
+{"level":"INFO","time":"2023-03-19T01:33:10.623+0800","caller":"logger/logger.go:44","msg":"init logger success"}
